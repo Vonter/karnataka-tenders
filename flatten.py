@@ -49,7 +49,7 @@ def flatten_data():
 
     # Configure the datatype of columns in the tendersDataFrame
     tendersDataFrame['Estimated Value'] = np.floor(tendersDataFrame['Estimated Value'].astype(float)).astype(int)
-    tendersDataFrame['Published Date'] = pd.to_datetime(tendersDataFrame['Published Date'])
+    tendersDataFrame['Published Date'] = pd.to_datetime(tendersDataFrame['Published Date'], format="%d-%m-%Y %H:%M:%S")
 
     # Sort the DataFrame by the 'Published Date' column in descending order
     tendersDataFrame = tendersDataFrame.sort_values(by='Published Date', ascending=False)

@@ -2,9 +2,9 @@
 
 Dataset of tenders issued in Karnataka. Sourced from the [Karnataka Public Procurement Portal](https://kppp.karnataka.gov.in).
 
-Browse the latest tenders here: <https://flatgithub.com/Vonter/karnataka-tenders?filename=csv/LatestTenders.csv&stickyColumnName=Tender%20Number>.
+Browse the latest tenders here: <https://flatgithub.com/Vonter/karnataka-tenders?filename=csv/LatestTenders.csv&stickyColumnName=Tender%20Number&sort=Published%20Date%2Cdesc>.
 
-Browse the entire dataset here: <https://flatgithub.com/Vonter/karnataka-tenders?filename=csv/AllTenders.csv&stickyColumnName=Tender%20Number>.
+Browse the entire dataset here: <https://flatgithub.com/Vonter/karnataka-tenders?filename=csv/AllTenders.csv&stickyColumnName=Tender%20Number&sort=Published%20Date%2Cdesc>.
 
 ## Scripts
 
